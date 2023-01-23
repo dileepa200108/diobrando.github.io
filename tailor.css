@@ -1,0 +1,450 @@
+.body{
+    margin: 0%;
+}
+
+
+
+/*Buttons ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''*/
+
+
+
+
+/*1st button ====================================================================   */
+.button {
+    background-color: rgb(255, 255, 255);
+    
+    color: #3882f6;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: #3882f6;
+    width: 8cm;
+    transition-duration: 0.6s;
+  }
+  .button:hover{
+    background-color:#3882f6 ;
+    color: aliceblue;
+    border: 2px solid white;
+  }
+
+  /*2nd button ===================================================================   */
+  .button2{
+    background-color: rgb(255, 255, 255);
+    
+    color: #3882f6;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    border:2px solid #3882f6;
+    width: 9.8cm;
+    transition-duration: 0.6s;
+    margin-top: 1cm;
+
+
+
+  }
+  .button2:hover{
+    background-color:#3882f6 ;
+    color: aliceblue;
+    border: 2px solid white;
+  }
+
+  /*3rd button ===================================================================   */
+  .button3{
+    padding: 12px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: aliceblue;
+    color: #3882f6;
+    transition-duration: 0.6s;   
+    border: none;
+    width: 9.6cm;
+}
+.button3:hover{
+    background-color: rgb(49, 48, 48);
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*1st layer================================================================================================*/
+.layer1{
+    display: flex;
+    background-color:#ffffff;
+    flex-direction: column;
+    padding: 0%;
+    height: 3cm;
+}
+.layer>div{
+
+}
+.layer1 .logo{
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-left: 2.5cm;
+    color: rgb(0, 0, 0);
+    margin-top: 2mm;
+
+}
+.layer1 .logod{
+    font-size: 12px;
+    margin-left: 3.8cm;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+}
+
+
+/*2nd layer===================================================================================================*/
+
+.layer2{
+    display: flex;
+    background-color: #3882f6;
+    height: 25cm;
+    justify-content: center;
+}
+.layer2>div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.layer2 .img2{
+    margin-top: 4mm;
+    
+}
+.layer2 .content{
+    font-weight: bolder;
+    margin-top: 6cm;
+    font-size: 50px;
+    margin-left: 15mm;
+    color: aliceblue;
+}
+.layer2 .p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1cm;
+    color: aliceblue;
+    
+}
+.layer2 .hr2{
+    
+    height: 4px;
+    background-color: rgb(255, 255, 255); /* Modern Browsers */
+    margin-top: 7mm;
+}
+.layer2 .butt2{
+    margin-top: 1cm;
+
+}
+
+/*Layer 3=============================================================================================================*/
+
+.layer3{
+    display: flex;
+    background-color: #ffffff;
+    height: 10cm;
+    flex-flow: column;
+    align-items: center;
+    
+    transition-duration: 0.6s;
+    
+}
+.layer3>div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.layer3 .title{
+    font-size: 28px;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 2cm;
+}
+.layer3 .details{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4mm;
+
+}
+.layer3:hover{
+    background-color: #a2abba;
+    
+    
+}
+
+/*end of 3rd layer...........................................                 */
+
+
+.layer4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 14cm;
+    background-color: #3882f6;
+}
+
+
+
+
+
+.layer4>div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+.layer4 .hr3{
+    height: 4px;
+    background-color: rgb(255, 255, 255); /* Modern Browsers */
+    margin-top: 7mm;
+    align-items: center;
+    width: 4.1cm;
+    margin-left: 2.7cm;
+
+
+}
+.layer4 .title3{
+    color: #ffffff;
+    align-items: center;
+    margin-left: 2.4cm;
+}
+.layer4 .para{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4mm;
+    color: #ffffff;
+}
+.layer4 .img1{
+    margin-left: 5.8cm;
+}
+.layer4 .title4{
+    color: #ffffff;
+    align-items: center;
+    margin-left: 1.2cm;
+}
+.layer4 .img2{
+    margin-left: 5cm;
+    margin-top: 0.9cm;
+}
+.layer4 .title5{
+    color: #ffffff;
+    align-items: center;
+    margin-left: 19mm;
+}
+
+
+
+/*End of 4th layer...........................................*/
+
+.layer5{
+    display: flex;
+    background-color: rgb(49, 48, 48);
+    height: 13cm;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+   
+   
+    
+
+    
+    
+}
+.layer5>div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.layer5 .p{
+    font-size: 42px;
+    color: #ffffff;
+    margin-top: 1.8cm;
+}
+.layer5 .p2{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 2mm 2mm;
+
+}
+
+.layer5 .p3{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 14mm;
+}
+.layer5 .butt{
+    margin-top: 1.3cm;
+}
+
+
+
+
+/*End of 5th layer*/
+.layer6{
+    display: flex;
+    background-color: #ffffff;
+    height: 4cm;
+    justify-content: center;
+    
+}
+.layer6>div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.layer6 .title{
+    font-size: 38px;
+    color:black;
+    margin-top: 10mm;
+    font-weight: 500;
+}
+/*End of 6th layer*/
+
+.layer7{
+    display: flex;
+    background-color: #ffffff;
+    min-height: 17cm;
+    flex-wrap: wrap;}
+
+.layer7 .img{
+    margin-left: 2mm;
+    margin-left: 6.7cm;
+}
+.layer7 .img2{
+    margin-left: 2mm;
+      
+}
+.layer7 .img3{
+    margin-left: 2mm;
+    margin-bottom: 23mm;   
+}
+
+
+
+/*End of 7th layer*/
+
+.layer8{
+    
+    display: flex;
+    background-color: rgb(49, 48, 48);
+    height: 13.5cm;
+    
+    flex-direction: column;
+    
+    
+    
+}
+.layer8>div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    align-content: center;
+
+}
+.layer8 .title{
+    color: #ffffff;
+    font-size: 21px;
+    margin-top: 1cm;
+    align-self: center;
+    font-weight: 600;
+}
+
+.layer8 .quote{
+    color: #ffffff;
+    font-size: 54px;
+    margin-top: 1cm;
+    align-self: center;
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+.layer8 .by{
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 2cm;
+    align-self: center;
+    font-weight: 500;
+}
+.layer8 .butt{
+    align-self: center;
+    margin-top: 1cm;
+}
+/*End of 8th layer*/
+
+.layer9{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 7cm;
+
+}
+.layer9>div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.layer9 .content1{
+    align-self: center;
+    color:  rgb(141, 136, 136);
+    margin-top: 1.5cm;
+    
+}
+.layer9 .content2{
+    align-self: center;
+    color:  rgb(141, 136, 136);
+    margin-top: 1cm;
+    font-size: 15px;
+    
+}
+.layer9 .link{
+    align-self: center;
+    margin-top: 1cm;
+    font-size: 18.5px;
+    
+}
+.layer9 #ints{
+    margin-left: 0.6cm;
+}
+.layer9 #ints:hover{
+    color: #a71a1a;
+    
+}
+
+.layer9 #twi{
+    margin-left: 0.6cm;
+}
+.layer9 #twi:hover{
+    color: #030441;
+    
+}
+.layer9 #fb{
+    
+}
+.layer9 #fb:hover{
+    color: #3882f6;
+}
